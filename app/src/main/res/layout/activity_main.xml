@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313231"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-189dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:id="@+id/MainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="6000dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <TextView
+                        android:id="@+id/Stock"
+                        android:layout_width="98dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentTop="false"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:gravity="top"
+                        android:lineSpacingExtra="0sp"
+                        android:text="Stocks"
+                        android:textColor="#F6F3F3"
+                        android:textSize="28sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/AppleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/apple" />
+
+                <LinearLayout
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="163dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="52dp"
+                            android:layout_height="24dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AAPL"
+                            android:textAlignment="textStart"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="94dp"
+                            android:layout_height="18dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=" Apple Inc."
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="195dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/AppleCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="14dp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <TextView
+                        android:id="@+id/AppleChange"
+                        android:layout_width="130dp"
+                        android:layout_height="23dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/HhrLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="201dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageHHR"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/hhr" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/HHRview"
+                            android:layout_width="52dp"
+                            android:layout_height="24dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="@string/hhr"
+                            android:textAlignment="textStart"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <TextView
+                            android:id="@+id/HHRview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="HeadHunter Group PLC"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/HeadHunterCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/HeadHunterChange"
+                        android:layout_width="126dp"
+                        android:layout_height="23dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/GooglLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="17dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="214dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageGoogl"
+                            android:layout_width="43dp"
+                            android:layout_height="43dp"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/googl" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Googleview1"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="GOOGL"
+                            android:textAlignment="textStart"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/googleview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=" Alphabet Class A"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/googleCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/googleChange"
+                        android:layout_width="143dp"
+                        android:layout_height="22dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/AmznLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="219dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageAMZN"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/amzn" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/amazonview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AMZN"
+                            android:textAlignment="textStart"
+                            android:textColor="#F4F0F0"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/amzonview2"
+                            android:layout_width="125dp"
+                            android:layout_height="31dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Amazon.com"
+                            android:textColor="#F6F2F2"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/amazonCost"
+                        android:layout_width="91dp"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F4F2F2"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/amazonChange"
+                        android:layout_width="143dp"
+                        android:layout_height="22dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BacLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="218dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageBAC"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bac" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bacview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="BAC"
+                            android:textAlignment="textStart"
+                            android:textColor="#F4F0F0"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/bacview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Bank of America Corp"
+                            android:textColor="#F4EFEF"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bacCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F1EAEA"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/bacChange"
+                        android:layout_width="143dp"
+                        android:layout_height="22dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MsftLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="217dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageMSFT"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/msft" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/msftview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="MSFT"
+                            android:textAlignment="textStart"
+                            android:textColor="#FFFAFA"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/msftview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Microsoft Corporation"
+                            android:textColor="#ECE9E9"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/microsoftCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F8F5F5"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/microsoftChange"
+                        android:layout_width="143dp"
+                        android:layout_height="22dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TslaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTSLA"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/tsla" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tslaview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="TSLA"
+                            android:textAlignment="textStart"
+                            android:textColor="#EAE2E2"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tslaview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Tesla Motors"
+                            android:textColor="#F6F0F0"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teslaCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F3EEEE"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/teslaChange"
+                        android:layout_width="143dp"
+                        android:layout_height="22dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="206dp"
+                    android:layout_height="66dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="83dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ma" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/MA"
+                            android:layout_width="89dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="MA"
+                            android:textColor="#F3EDED"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Mastercard"
+                            android:textColor="#F6F4F4"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/tslaview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Tesla Motors"
+                            android:textColor="#313231"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/macost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F8F5F5"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/machange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@color/green"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/PfeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="219dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTSLA"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pfizer" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tslaview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="PFE"
+                            android:textAlignment="textStart"
+                            android:textColor="#FAF6F6"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tslaview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Pfizer, Inc"
+                            android:textColor="#F1EEEE"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pfizercost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F6F6F6"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/pfizerchange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@color/green"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/NvdaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="217dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTSLA"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/nvidia" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tslaview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="NVDA"
+                            android:textAlignment="textStart"
+                            android:textColor="#F1EFEF"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tslaview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="NVIDIA Corporation"
+                            android:textColor="#F1EBEB"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nvdacost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#F6F0F0"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/nvdachange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@color/green"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/BabaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="203dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageTSLA"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/alibaba" />
+
+                    <LinearLayout
+                        android:layout_width="12dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tslaview"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="BABA"
+                            android:textAlignment="textStart"
+                            android:textColor="#F1EFEF"
+                            android:textSize="18sp"
+                            app:lineHeight="24px" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tslaview2"
+                            android:layout_width="133dp"
+                            android:layout_height="23dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Alibaba group"
+                            android:textColor="#F1EBEB"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/babacost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="$131.93"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="15dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/babachange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="+55 ₽ (1,15%)"
+                        android:textColor="@color/green"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
